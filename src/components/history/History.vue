@@ -1,6 +1,17 @@
 <template>
   <div id="historyWrapper">
-    <p>This is rendered by the History component.</p>
+    <div id="buttonLeftWrapper">
+      <router-link :to="{ name: 'historyofpollokshields'}">History of Pollokshields</router-link>
+    </div>
+    <div id="titleWrapper">
+
+    </div>
+    <div id="buttonRightWrapper">
+
+    </div>
+    <div>
+      <router-view></router-view>
+    </div>
   </div>
 </template>
 <script>

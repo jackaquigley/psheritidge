@@ -2,6 +2,7 @@ import Vue from 'vue';
 import Router from 'vue-router';
 import History from '@/components/history/History.vue'
 import Homepage from '@/components/Homepage.vue'
+import HistoryOfPollokshields from '@/components/history/HistoryOfPollokshields.vue'
 
 
 Vue.use(Router)
@@ -15,9 +16,16 @@ const router = new Router({
         component: Homepage
       },
       {
-        path: '/history',
+        path: '/history/',
         name: 'history',
-        component: History
+        component: History,
+        children: [
+          {
+            path: 'historyofpollokshields',
+            name: 'historyofpollokshields',
+            component: HistoryOfPollokshields
+          }
+        ]
       }
     ]
   })
