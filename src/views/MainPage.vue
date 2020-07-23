@@ -3,7 +3,9 @@
     <div id="header">
       <header-component />
     </div>
-      <p>This is rendered by the Main Page View.</p>
+    <div id="route">
+      <router-view />
+    </div>
   </div>
 
 </template>

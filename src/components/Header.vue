@@ -1,6 +1,7 @@
 <template>
   <div id="headerWrapper">
-    <p>This is rendered by the header component.</p>
+    <router-link :to="{ name: 'homepage'}">Home</router-link>
+    <router-link :to="{ name: 'history'}">History</router-link>
   </div>
 </template>
 
