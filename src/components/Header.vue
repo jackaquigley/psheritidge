@@ -11,5 +11,10 @@ export default {
 }
 
 </script>
-<style lang="scss" scoped>
+<style scoped>
+
+router-link {
+  background: blue;
+}
+
 </style>
