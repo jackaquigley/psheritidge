@@ -6,6 +6,7 @@
       <router-link :to="{ name: 'leisure'}">Leisure</router-link>
       <router-link :to="{ name: 'notableresidents'}">Notable Residents</router-link>
       <router-link :to="{ name: 'notablearchitecture'}">Notable Architecture</router-link>
+      <router-link :to="{ name: 'thomassbodyphotographs'}">Thomas S Body Photographs</router-link>
     </div>
     <div id="titleWrapper">
       <h1>History</h1>
