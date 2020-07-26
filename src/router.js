@@ -6,6 +6,7 @@ import HistoryOfPollokshields from '@/components/history/HistoryOfPollokshields.
 import WW1Archives from '@/components/history/WW1Archives.vue'
 import WW2Archives from '@/components/history/WW2Archives.vue'
 import FalklandWarArchives from '@/components/history/FalklandWarArchives.vue'
+import Leisure from '@/components/history/Leisure.vue'
 
 Vue.use(Router)
 
@@ -41,6 +42,11 @@ const router = new Router({
               path: 'falklandwararchives',
               name: 'falklandwararchives',
               component: FalklandWarArchives
+            },
+            {
+              path: 'leisure',
+              name: 'leisure',
+              component: Leisure
             }
           ]
         }
