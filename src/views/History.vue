@@ -5,6 +5,7 @@
       <router-link :to="{ name: 'ww1archives'}">WW1 Archives</router-link>
       <router-link :to="{ name: 'leisure'}">Leisure</router-link>
       <router-link :to="{ name: 'notableresidents'}">Notable Residents</router-link>
+      <router-link :to="{ name: 'notablearchitecture'}">Notable Architecture</router-link>
     </div>
     <div id="titleWrapper">
       <h1>History</h1>

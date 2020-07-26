@@ -10,6 +10,7 @@ import Leisure from '@/components/history/Leisure.vue'
 import PlacesOfWorship from '@/components/history/PlacesOfWorship.vue'
 import NotableResidents from '@/components/history/NotableResidents.vue'
 import Articles from '@/components/history/Articles.vue'
+import NotableArchitecture from '@/components/history/NotableArchitecture.vue'
 
 Vue.use(Router)
 
@@ -65,6 +66,11 @@ const router = new Router({
               path: 'articles',
               name: 'articles',
               component: Articles
+            },
+            {
+              path: 'notablearchitecture',
+              name: 'notablearchitecture',
+              component: NotableArchitecture
             }
           ]
         }
