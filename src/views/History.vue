@@ -11,6 +11,7 @@
     <div id="buttonRightWrapper">
       <router-link :to="{ name: 'falklandwararchives'}">Falkland War Archives</router-link>
       <router-link :to="{ name: 'ww2archives'}">WW2 Archives</router-link>
+      <router-link :to="{ name: 'placesofworship'}">Places Of Worship</router-link>
     </div>
     <div>
       <router-view></router-view>

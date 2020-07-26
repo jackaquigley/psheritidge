@@ -7,6 +7,7 @@ import WW1Archives from '@/components/history/WW1Archives.vue'
 import WW2Archives from '@/components/history/WW2Archives.vue'
 import FalklandWarArchives from '@/components/history/FalklandWarArchives.vue'
 import Leisure from '@/components/history/Leisure.vue'
+import PlacesOfWorship from '@/components/history/PlacesOfWorship.vue'
 
 Vue.use(Router)
 
@@ -47,6 +48,11 @@ const router = new Router({
               path: 'leisure',
               name: 'leisure',
               component: Leisure
+            },
+            {
+              path: 'placesofworship',
+              name: 'placesofworship',
+              component: PlacesOfWorship
             }
           ]
         }
