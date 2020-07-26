@@ -19,7 +19,7 @@
       <router-link :to="{ name: 'virtualpollokshields'}">Virtual Pollokshields</router-link>
       <router-link :to="{ name: 'externallinks'}">External Links</router-link>
     </div>
-    <div>
+    <div id="routerWrapper">
       <router-view></router-view>
     </div>
   </div>
@@ -29,5 +29,39 @@ export default {
   name: "history"
 }
 </script>
-<style lang="scss" scoped>
+<style scoped>
+
+#historyWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 12px;
+}
+
+#titleWrapper {
+  width: 33%;
+  text-align: center;
+}
+
+#buttonLeftWrapper {
+  display: flex;
+  flex-direction: column;
+  width: 33%;
+  justify-content: center;
+  text-align: center;
+}
+
+#buttonRightWrapper {
+  display: flex;
+  flex-direction: column;
+  width: 33%;
+  justify-content: center;
+  text-align: center;
+}
+
+#routerWrapper {
+  justify-content: center;
+}
+
+
 </style>
