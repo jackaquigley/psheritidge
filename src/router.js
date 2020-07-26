@@ -13,6 +13,7 @@ import Articles from '@/components/history/Articles.vue'
 import NotableArchitecture from '@/components/history/NotableArchitecture.vue'
 import VirtualPollokshields from '@/components/history/VirtualPollokshields.vue'
 import ThomasSBodyPhotographs from '@/components/history/ThomasSBodyPhotographs.vue'
+import ExternalLinks from '@/components/history/ExternalLinks.vue'
 
 Vue.use(Router)
 
@@ -83,6 +84,11 @@ const router = new Router({
               path: 'thomassbodyphotographs',
               name: 'thomassbodyphotographs',
               component: ThomasSBodyPhotographs
+            },
+            {
+              path: 'externallinks',
+              name: 'externallinks',
+              component: ExternalLinks
             }
           ]
         }

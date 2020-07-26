@@ -1,11 +1,11 @@
 <template>
   <div id="">
-    <p>Places Of Worship</p>
+    <p>External Links</p>
   </div>
 </template>
 <script>
 export default {
-  name: "placesofworship"
+  name: "externallinks"
 }
 </script>
 <style lang="scss" scoped>

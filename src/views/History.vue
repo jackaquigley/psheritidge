@@ -17,6 +17,7 @@
       <router-link :to="{ name: 'placesofworship'}">Places Of Worship</router-link>
       <router-link :to="{ name: 'articles'}">Articles</router-link>
       <router-link :to="{ name: 'virtualpollokshields'}">Virtual Pollokshields</router-link>
+      <router-link :to="{ name: 'externallinks'}">External Links</router-link>
     </div>
     <div>
       <router-view></router-view>
