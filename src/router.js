@@ -11,6 +11,7 @@ import PlacesOfWorship from '@/components/history/PlacesOfWorship.vue'
 import NotableResidents from '@/components/history/NotableResidents.vue'
 import Articles from '@/components/history/Articles.vue'
 import NotableArchitecture from '@/components/history/NotableArchitecture.vue'
+import VirtualPollokshields from '@/components/history/VirtualPollokshields.vue'
 
 Vue.use(Router)
 
@@ -71,6 +72,11 @@ const router = new Router({
               path: 'notablearchitecture',
               name: 'notablearchitecture',
               component: NotableArchitecture
+            },
+            {
+              path: 'virtualpollokshields',
+              name: 'virtualpollokshields',
+              component: VirtualPollokshields
             }
           ]
         }

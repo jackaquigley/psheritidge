@@ -15,6 +15,7 @@
       <router-link :to="{ name: 'ww2archives'}">WW2 Archives</router-link>
       <router-link :to="{ name: 'placesofworship'}">Places Of Worship</router-link>
       <router-link :to="{ name: 'articles'}">Articles</router-link>
+      <router-link :to="{ name: 'virtualpollokshields'}">Virtual Pollokshields</router-link>
     </div>
     <div>
       <router-view></router-view>
