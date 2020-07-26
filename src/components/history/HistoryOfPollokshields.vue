@@ -1,5 +1,5 @@
 <template>
-  <div id="">
+  <div id="historyOfPollokshieldsWrapper">
     <p>The History Of Pollokshields</p>
   </div>
 </template>
