@@ -3,12 +3,13 @@
     <div id="buttonLeftWrapper">
       <router-link :to="{ name: 'historyofpollokshields'}">History of Pollokshields</router-link>
       <router-link :to="{ name: 'ww1archives'}">WW1 Archives</router-link>
+      <router-link :to="{ name: 'falklandwararchives'}">Falkland War Archives</router-link>
     </div>
     <div id="titleWrapper">
       <h1>History</h1>
     </div>
     <div id="buttonRightWrapper">
-        
+
     </div>
     <div>
       <router-view></router-view>
