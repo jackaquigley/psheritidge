@@ -9,6 +9,7 @@ import FalklandWarArchives from '@/components/history/FalklandWarArchives.vue'
 import Leisure from '@/components/history/Leisure.vue'
 import PlacesOfWorship from '@/components/history/PlacesOfWorship.vue'
 import NotableResidents from '@/components/history/NotableResidents.vue'
+import Articles from '@/components/history/Articles.vue'
 
 Vue.use(Router)
 
@@ -59,6 +60,11 @@ const router = new Router({
               path: 'notableresidents',
               name: 'notableresidents',
               component: NotableResidents
+            },
+            {
+              path: 'articles',
+              name: 'articles',
+              component: Articles
             }
           ]
         }
