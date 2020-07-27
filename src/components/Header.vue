@@ -5,7 +5,10 @@
         <h1>Pollokshields Heritage</h1>
       </div>
       <div id="donateWrapper">
-        <h1>Donate.</h1>
+        <div id="innerDonate">
+        <router-link class="headerLink" :to="{ name: 'guide'}">Guide to the Site</router-link>
+        <router-link class="headerLink" :to="{ name: 'donate'}">Donate</router-link>
+        </div>
       </div>
       <div id="linksWrapper">
         <router-link :to="{ name: 'homepage'}">Home</router-link>
@@ -23,7 +26,7 @@
         <a>Events</a>
         <a>How To Join</a>
         <a>Projects</a>
-        <a>Gallary</a>
+        <a>Gallery</a>
       </div>
     </header>
   </div>
@@ -38,8 +41,8 @@ export default {
 <style scoped>
 
 a {
-  padding: 2px;
-  border: 1px solid black;
+  padding-left: 5px;
+  padding-right: 5px;
 }
 
 header {
@@ -55,12 +58,23 @@ header {
 }
 
 #donateWrapper {
-  width: 30%;
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#innerDonate {
+
 }
 
 #linksWrapper {
   align-self: center;
+  flex-wrap: wrap;
   }
+
+.headerLink {
+  padding: 6px;
+  font-size: 24px;
+}
 
 </style>

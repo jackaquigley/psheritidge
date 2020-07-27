@@ -14,6 +14,8 @@ import NotableArchitecture from '@/components/history/NotableArchitecture.vue'
 import VirtualPollokshields from '@/components/history/VirtualPollokshields.vue'
 import ThomasSBodyPhotographs from '@/components/history/ThomasSBodyPhotographs.vue'
 import ExternalLinks from '@/components/history/ExternalLinks.vue'
+import Guide from '@/components/Guide.vue'
+import Donate from '@/components/Donate.vue'
 
 Vue.use(Router)
 
@@ -24,6 +26,16 @@ const router = new Router({
         path: '/',
         name: 'homepage',
         component: Homepage
+      },
+      {
+        path: 'guide',
+        name: 'guide',
+        component: Guide
+      },
+      {
+        path: 'donate',
+        name: 'donate',
+        component: Donate
       },
       {
         path: '/history/',
